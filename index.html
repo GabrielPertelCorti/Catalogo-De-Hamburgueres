@@ -4,92 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PL Burguer House</title>
+    <link rel="stylesheet" href="estilos.css">
   </head>
-  <body style="background-color: lab(87.23% 2.39 0.84);" >
-    <table width="100%">
+
+  <body>
+    <table>
       <tr>
         <td>
-          <h1
-            style="
-              color: hsl(0, 97%, 27%);
-              text-align: center;
-              font-family: Arial, sans-serif;
-            "
-          >
-            PL Burguer House
-          </h1>
+          <h1>PL Burguer House</h1>
 
-          <h2 style="text-align: center">
+          <h2 class="subtitulo">
             Os melhores hambúrgueres artesanais da Grande Vitória!
           </h2>
 
-          <ul style="text-align: center; list-style: none; padding: 0">
-            <li style="display: inline; margin: 0 15px">
-              <a
-                href="#"
-                style="text-decoration: none; color: black; font-weight: bold"
-                >Início</a
-              >
-            </li>
-
-            <li style="display: inline; margin: 0 15px">
-              <a
-                href="#"
-                style="text-decoration: none; color: black; font-weight: bold"
-                >Cardápio</a
-              >
-            </li>
-
-            <li style="display: inline; margin: 0 15px">
-              <a
-                href="#"
-                style="text-decoration: none; color: black; font-weight: bold"
-                >Contato</a
-              >
-            </li>
+          <ul class="menu">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Cardápio</a></li>
+            <li><a href="#">Contato</a></li>
           </ul>
         </td>
       </tr>
 
       <tr>
         <td>
-          <h2 style="text-align: center">Sobre o PL Burguer House</h2>
+          <h2>Sobre o PL Burguer House</h2>
 
-          <p style="font-size: 16px; color: #333; text-align: center">
+          <p class="texto">
             O PL BurgerHouse é um site que apresenta um cardápio de hambúrgueres
             artesanais, com ingredientes de alta qualidade e sabores únicos.
           </p>
 
-          <p style="font-size: 16px; color: #333; text-align: center">
+          <p class="texto">
             Nosso objetivo é oferecer uma experiência deliciosa para quem ama
             hambúrguer.
           </p>
 
-          <h2 style="text-align: center" >Nosso Cardápio</h2>
-          <ul style="text-align: center; list-style: none;">
+          <h2>Nosso Cardápio</h2>
+          <ul class="cardapio">
             <li>X-Burger Clássico</li>
             <li>Bacon Supremo</li>
             <li>Cheddar Duplo</li>
           </ul>
 
-          <h2 style="text-align: center">Peça agora</h2>
+          <h2>Peça agora</h2>
 
-          <p style="font-size: 16px; color: #333; text-align: center;">
+          <p class="texto">
             Faça seu pedido diretamente pelo WhatsApp:
           </p>
 
-          <p style="text-align: center;" >
+          <p class="whatsapp-container">
             <a
-                href="https://wa.me/5527996573238"
-                target="_blank"
-                style="
-                background-color: #25d366;
-                color: white;
-                padding: 10px 15px;
-                text-decoration: none;
-                border-radius: 5px;"
-            >
-                Pedir pelo WhatsApp
+              href="https://wa.me/5527996573238"
+              target="_blank"
+              class="btn-whatsapp">
+              Pedir pelo WhatsApp
             </a>
           </p>
         </td>
@@ -97,7 +65,7 @@
 
       <tr>
         <td>
-          <p style="text-align: center; font-size: 14px; color: gray">
+          <p class="rodape">
             © 2026 PL Burguer House - Todos os direitos reservados
           </p>
         </td>

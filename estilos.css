@@ -1,0 +1,72 @@
+body {
+  background-color: lab(87.23% 2.39 0.84);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: hsl(0, 97%, 27%);
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+
+.subtitulo {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  list-style: none;
+}
+
+.menu li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.texto {
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+.cardapio {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+.whatsapp-container {
+  text-align: center;
+}
+
+.btn-whatsapp {
+  background-color: #25d366;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.rodape {
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}
